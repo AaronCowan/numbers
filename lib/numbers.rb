@@ -1,5 +1,6 @@
 require 'faraday'
-require_relative 'connect'
+require 'numbers/connect'
+require 'json'
 
 module Numbers
 
@@ -16,10 +17,10 @@ module Numbers
           req.headers['X-Mashape-Key'] = @api_key 
           req.headers['Accept']        = "text/plain"
         end
-        response.body
+        JSON.parse(response.body)
       else
         puts "day and month must be integers"
-        response.body
+        JSON.parse(response.body)
       end
     end
 
@@ -30,10 +31,10 @@ module Numbers
           req.headers['X-Mashape-Key'] = @api_key 
           req.headers['Accept']        = "text/plain"
         end
-        response.body
+        JSON.parse(response.body)
       else
         puts "must submit an integer"
-        response.body
+        JSON.parse(response.body)
       end
     end
 
@@ -44,7 +45,7 @@ module Numbers
         req.headers['X-Mashape-Key'] = @api_key 
         req.headers['Accept']        = "text/plain"
       end
-      response.body
+      JSON.parse(response.body)
     end
 
     def get_trivia_fact(int)
@@ -54,10 +55,10 @@ module Numbers
           req.headers['X-Mashape-Key'] = @api_key 
           req.headers['Accept']        = "text/plain"
         end
-        response.body
+        JSON.parse(response.body)
       else
         puts "must submit an integer"
-        response.body
+        JSON.parse(response.body)
       end
     end
 
@@ -68,16 +69,16 @@ module Numbers
           req.headers['X-Mashape-Key'] = @api_key 
           req.headers['Accept']        = "text/plain"
         end
-        response.body
+        JSON.parse(response.body)
       else
         puts "must submit an integer"
-        response.body
+        JSON.parse(response.body)
       end
     end
   end
 end
 
-# Numbers.api_key = ""
+#Numbers.api_key = ""
 #puts Numbers.get_date_fact(21,6)
 #puts Numbers.get_math_fact(100)
 #puts Numbers.get_random_fact
