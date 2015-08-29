@@ -8,7 +8,7 @@
 
 ####Install
 
-```ruby
+```
 gem install numbers
 ```
 
@@ -82,6 +82,5 @@ Numbers.get_year_fact(9)
 	"type"=>"year"}
 ```
 
-
-
-
+##Todo
+* tests
