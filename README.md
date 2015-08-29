@@ -1,9 +1,24 @@
-##ToDo
-* Finish this README
-* original API found at: https://www.mashape.com/divad12/numbers-1
+
+##Summary
+
+* This gem acts as a wrapper to the [Numbers Api](https://www.mashape.com/divad12/numbers-1).
+* Current version is 0.1.0
 
 ##Usage
-####First, set the API key
+
+####Install
+
+```ruby
+gem install numbers
+```
+
+####Require
+
+```ruby
+require 'numbers'
+```
+
+####Set API key
 
 ```ruby
 Numbers.api_key = "abcxyz"
