@@ -10,6 +10,11 @@
 ```
 gem install numbers
 ```
+####Install Dependencies
+```
+gem install faraday
+gem install json
+```
 
 ####Require
 
