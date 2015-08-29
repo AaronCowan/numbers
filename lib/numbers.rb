@@ -20,7 +20,6 @@ module Numbers
         JSON.parse(response.body)
       else
         puts "day and month must be integers"
-        JSON.parse(response.body)
       end
     end
 
@@ -34,7 +33,6 @@ module Numbers
         JSON.parse(response.body)
       else
         puts "must submit an integer"
-        JSON.parse(response.body)
       end
     end
 
@@ -58,7 +56,6 @@ module Numbers
         JSON.parse(response.body)
       else
         puts "must submit an integer"
-        JSON.parse(response.body)
       end
     end
 
@@ -72,7 +69,6 @@ module Numbers
         JSON.parse(response.body)
       else
         puts "must submit an integer"
-        JSON.parse(response.body)
       end
     end
   end
