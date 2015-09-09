@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name            = 'numbers'
-  s.version         = '0.1.0'
-  s.summary         = 'Ruby gem for the use of the numbers API found here: https://www.mashape.com/divad12/numbers-1'
-  s.authors         = ['aaron cowan']
+  s.version         = '1.0.0'
+  s.summary         = 'Ruby gem for the use of the numbers API found here: https://www.numbersapi.com'
+  s.authors         = ['Aaron Cowan']
   s.license         = 'MIT'
   s.description     = 'API wrapper for number facts api'
   s.email           = 'ac.aaroncowan@gmail.com'
