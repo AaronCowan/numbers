@@ -1,7 +1,7 @@
 [![Gem Version](https://badge.fury.io/rb/numbers.svg)](http://badge.fury.io/rb/numbers)
 ##Summary
 
-* This gem acts as a wrapper to the [Numbers Api](https://www.numbersapi.com).
+* This gem acts as a wrapper to the [Numbers Api](http://www.numbersapi.com).
 
 ##Usage
 
